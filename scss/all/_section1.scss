@@ -1,0 +1,85 @@
+#section1{
+    width: 100%;
+    padding: 36px 0;
+    background: #121212;
+
+    .section1__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 81px;
+
+        button{
+            @include btn(rgb(95, 30, 67) ,white);
+            transition: all .02s linear;
+
+            &:hover{
+               background: rgb(133, 27, 55);
+               cursor: pointer;
+               transform: scale(1.03);
+               transition: all .02s linear;
+            }
+        }
+
+        &--titl--p{
+
+            &-span1{
+                display: inline-block;
+                width: 220px;
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+                opacity: 0.4;
+            }
+            &-span2{
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 150%;
+            }
+        }
+
+        &--statis--p{
+
+            &-span1{
+                display: inline-block;
+                width: 220px;
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+                opacity: 0.4;
+            }
+            &-span2{
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 150%;
+            }
+
+        }
+        &--statis--p2{
+            width: 616px;
+            height: 6px;
+            background: rgb(237,24,61);
+            background: linear-gradient(90deg, rgba(237,24,61,1) 0%, rgba(222,8,81,1) 28%, rgba(255,255,255,1) 61%);
+            margin: 7px 0;
+        }
+
+        &--statis--p3{
+            display: flex;
+            align-items: center;
+            gap: 523px;
+
+            &-span1 , &--span2{
+                display: inline-block;
+                color:  #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%; 
+                opacity: 0.4;
+            }
+        }
+    }
+    
+}

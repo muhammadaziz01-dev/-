@@ -1,0 +1,18 @@
+// mixins for
+
+@mixin btn($bg, $color){
+  background: $bg;
+  color:$color;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: none;
+
+}
+
+
+// @include mixinName(red, white) // call to mixin
+
